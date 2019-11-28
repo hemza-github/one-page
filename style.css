@@ -145,13 +145,16 @@ opacity: 0.7;
 
 .listemenu li{
     margin-left: 50px;
+    border:2px solid transparent;
 }
-.listemenu li:hover{
-    border:2px solid #4bcaff;
-    padding: 5px;
-    margin-left:10px;
+.scale-up-center:hover {
+            border:2px solid #4bcaff;
+    
+    margin-left:50px;
     color: #4bcaff;
-    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
     
 }
 
@@ -176,9 +179,168 @@ opacity: 0.7;
     padding-right: 15px;
 }
 
+.sectionone h1{
+    margin: 0;
+}
 .sectionone{
     height: 405px;
     background-color: #4bcaff;
     color: white;
+    padding-top: 5%;
+    
+}
 
+.sectiononex{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+
+.sectiononey{
+    margin-right: 2%;
+    margin-top: 2%;
+    
+}
+.sectiononex p{
+    font-size: 12px;
+    
+}
+
+.sectiontwo{
+    height: 850px;
+    margin-top: 2%;
+    
+}
+
+.sectiontwo h1{
+    margin: 0;
+    
+    
+    
+}
+
+.margeh1{
+    width: 100%;
+    display: flex;
+}
+
+.listemenu2{
+    font-size: 14px;
+}
+
+.listemenu2:hover{
+    font-size: 14px;
+  
+}
+
+
+.classimg{
+    margin: 10px;
+  
+    
+}
+
+.classimg img{
+     margin-left: -20px;
+    margin-right: -20px; 
+    background:#000000;
+    display:inline-block;
+    width: 23%;
+}
+
+.classimg img:hover{ 
+filter: brightness(25%);
+-webkit-filter: brightness(25%);    
+}
+
+
+.decaleimg{
+    margin-top: 10%;
+}
+
+
+.plus{
+    position: RELATIVE;
+    TOP: 70;
+    right: 100;
+    color: transparent;
+    font-size: 100PX;
+    display: transparent;
+   
+}  
+
+.plus:hover{
+    position: RELATIVE;
+    TOP: 70;
+    right: 170;
+    font-size: 100PX;
+    color: white;
+    
+}  
+
+
+.sectionthree{
+    height: 475px;
+    background-color: #515f67;
+    color: white;
+     
+}
+
+
+.btnvisit{
+    color: black;
+    border: solid black 1px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration:none;
+    display: inline-block;
+   margin-top: 10px;
+}
+
+.boite3{
+    
+    display: flex;
+    padding-top:10%;
+    margin: 0;
+}
+
+.grille2{
+   
+    justify-content: space-between
+}
+
+
+.grille2 img{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.sectionfour{
+    height: 305px;
+    background-color: #4bcaff;
+}
+
+.spacebet h1{
+    margin: 0;
+    padding-top:45% ;
+}
+
+.sectionfour img{
+    padding-top:4% ;
+}
+
+.spacebet{
+    justify-content: space-between;
+}
+
+.txttweet{
+    color: white;
+    font-size: 24px ;
+}
+
+.gras{
+    background-color: aqua;
 }
